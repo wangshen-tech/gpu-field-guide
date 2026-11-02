@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172d32">
+  <meta name="description" content="An independent, practical GPU learning guide for AI infrastructure engineers. Explore architecture, CUDA, PyTorch, profiling, LLM inference and production systems.">
+  <title>GPU Field Guide — Learn the machine. Build the system.</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-scroll="main">Skip to content</a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <a class="brand" href="#overview"><span class="brand-icon">g<span>▦</span></span><span>GPU<br><strong>FIELD GUIDE</strong></span></a>
+    <div class="edition">AN ENGINEER’S HANDBOOK <span>01 / 2026</span></div>
+    <nav id="nav">
+      <a href="#overview" data-nav="overview"><span class="nav-icon">◫</span> Overview</a>
+      <a href="#curriculum" data-nav="curriculum"><span class="nav-icon">▤</span> Learning path <span class="nav-count">20</span></a>
+      <a href="#playground" data-nav="playground"><span class="nav-icon">⌘</span> GPU playground</a>
+      <a href="#interview" data-nav="interview"><span class="nav-icon">◎</span> Career & interviews</a>
+      <a href="#resources" data-nav="resources"><span class="nav-icon">↗</span> Reference library</a>
+    </nav>
+    <div class="side-path"><span class="eyebrow">THE LEARNING SEQUENCE</span><p><i></i> Understand the hardware</p><p><i></i> Measure and optimize</p><p><i></i> Operate the system</p></div>
+    <div class="sidebar-bottom"><div class="progress-title">Your field notes <span id="progress-count">0 / 20</span></div><div class="progress-track"><div id="progress-bar"></div></div><p>Progress saved in this browser.</p><button class="text-button" id="reset-progress">Reset progress</button><div class="sidebar-foot">SINGLE GPU FIRST.<br>THE WHOLE SYSTEM NEXT.</div></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><button class="mobile-menu" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><div class="breadcrumb">THE HANDBOOK <span>/</span> <b id="breadcrumb-current">Overview</b></div><button class="search-trigger" id="search-open"><span>⌕</span> Find a topic <kbd>/</kbd></button><span class="updated"><i></i> Built for practical learning</span></header>
+    <main id="main" tabindex="-1"></main>
+    <footer><span>GPU FIELD GUIDE <span class="footer-divider">/</span> Learn the machine. Build the system.</span><span>Independent educational guide · November 2026</span></footer>
+  </div>
+  <dialog id="search-dialog" aria-labelledby="search-title"><div class="search-head"><h2 id="search-title">Find your next concept</h2><button id="search-close" aria-label="Close search">×</button></div><label class="sr-only" for="global-search">Search lessons</label><input id="global-search" type="search" placeholder="Try CUDA, KV cache, memory, Kubernetes…" autocomplete="off"><div id="search-results"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="data/foundations.js"></script><script src="data/performance.js"></script><script src="data/production.js"></script><script src="app.js"></script>
+</body>
+</html>

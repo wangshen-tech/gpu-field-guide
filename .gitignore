@@ -1,0 +1,26 @@
+# Local operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.pem
+*.key
+
+# Scratch work, caches, logs and export bundles
+/work/
+/tmp/
+__pycache__/
+*.pyc
+*.log
+*.zip
+*.tar
+*.tar.gz
+
+# dist/ and Sites metadata in .openai/ are intentionally tracked.
